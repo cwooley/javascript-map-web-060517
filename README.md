@@ -23,6 +23,7 @@ function map(collection) {
 }
 ```
 
+#wheres the beef?
 This will log all of the elements in the array. Not terribly interesting. Let's add a second argument so we can pass a function to our `map()` function. This function will receive the `element` and can then optionally transform it. We'll also need a new array to store our results in, so we can return the result when we're done:
 
 ```js
